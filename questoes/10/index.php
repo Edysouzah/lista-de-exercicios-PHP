@@ -16,7 +16,12 @@
 
     <main>
 
-    <!-- implementação da solução -->
+     <?php
+        $dias = 5; // quantidade de dias
+        $horas = $dias * 24;
+
+        echo "<p>$dias dias equivalem a $horas horas.</p>";
+    ?>
      
     </main>
 </body>
