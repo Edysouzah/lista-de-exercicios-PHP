@@ -17,6 +17,17 @@
     <main>
 
     <!-- implementação da solução -->
+    <?php
+        $num = 5; // número que você quer calcular o fatorial
+        $fatorial = 1;
+
+        for ($i = $num; $i >= 1; $i--) {
+            $fatorial *= $i;
+        }
+
+        echo "<p>O fatorial de $num é: $fatorial</p>";
+    ?>
+     
      
     </main>
 </body>
