@@ -16,7 +16,20 @@
 
     <main>
 
-    <!-- implementação da solução -->
+     <!-- implementação da solução -->
+    
+        $n1 = 15;
+        $n2 = 8;
+        $n3 = 20;
+
+        // Coloca os números em um array
+        $numeros = [$n1, $n2, $n3];
+
+        // Ordena em ordem decrescente
+        rsort($numeros);
+
+        echo "<p>Ordem decrescente: " . implode(" - ", $numeros) . "</p>";
+
      
     </main>
 </body>
