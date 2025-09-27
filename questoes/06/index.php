@@ -16,8 +16,8 @@
 
     <main>
 
-     <!-- implementação da solução -->
-    
+    <!-- implementação da solução -->
+    <?php
         $n1 = 15;
         $n2 = 8;
         $n3 = 20;
@@ -29,6 +29,9 @@
         rsort($numeros);
 
         echo "<p>Ordem decrescente: " . implode(" - ", $numeros) . "</p>";
+    ?>
+     
+    </main>
 
      
     </main>
