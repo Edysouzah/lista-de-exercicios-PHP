@@ -16,7 +16,12 @@
 
     <main>
 
-    <!-- implementação da solução -->
+     <?php
+        $idade = 20; // idade em anos
+        $diasDeVida = $idade * 365;
+
+        echo "<p>Uma pessoa com $idade anos viveu aproximadamente $diasDeVida dias.</p>";
+    ?>
      
     </main>
 </body>
