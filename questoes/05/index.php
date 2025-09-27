@@ -18,7 +18,7 @@
 
     <main>
     <!-- implementação da solução -->
-
+    <?php
         $n1 = 10;
         $n2 = 25;
         $n3 = 15;
@@ -34,9 +34,7 @@
         }
 
         echo "<p>O maior número é: $maior</p>";
-    
-        
-     
+    ?>
     </main>
 </body>
 
