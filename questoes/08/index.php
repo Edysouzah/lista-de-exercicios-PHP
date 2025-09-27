@@ -16,7 +16,18 @@
 
     <main>
 
-    <!-- implementação da solução -->
+ <?php
+        $inicio = 1;
+        $fim = 50;
+
+        echo "<p>Números ímpares entre $inicio e $fim:</p>";
+        for ($i = $inicio; $i <= $fim; $i++) {
+            if ($i % 2 != 0) {
+                echo $i . " ";
+            }
+        }
+    ?>
+     
      
     </main>
 </body>
